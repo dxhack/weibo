@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="new">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -23,10 +23,10 @@
 
 <script>
 export default {
-  name: 'hello',
+  name: 'new',
   data () {
     return {
-      msg: '发微博'
+      msg: 'Hello World'
     }
   }
 }
@@ -52,6 +52,3 @@ a {
   color: #42b983;
 }
 </style>
-
-
-
