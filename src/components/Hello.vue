@@ -1,9 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>
-       <router-link to="/Hi">Go to Hi</router-link>
-    </h2>
+    <h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
@@ -18,12 +16,9 @@
       <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
+      <li><a href="#/" target="_blank">tiaozhuan</a></li>
     </ul>
-
-	<a href='#/Hi'> This is Hello </a>
-	<a href='https://www.bing.com/'> bbb </a>
   </div>
-  
 </template>
 
 <script>
@@ -57,3 +52,6 @@ a {
   color: #42b983;
 }
 </style>
+
+
+
