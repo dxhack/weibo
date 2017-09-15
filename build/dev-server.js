@@ -43,7 +43,7 @@ compiler.plugin('compilation', function (compilation) {
     cb()
   })
 })
-
+     
 // proxy api requests
 Object.keys(proxyTable).forEach(function (context) {
   var options = proxyTable[context]
