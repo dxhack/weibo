@@ -8,13 +8,14 @@
     </mt-header>
         <mt-popup v-model="popupVisible" position="bottom" class="lll" >
                 <mt-header title="发评论"  class="header">
-                    <mt-button icon="back" slot="left" @click="popupVisible=false">取消</mt-button>
-                    <mt-button  slot="right">发送</mt-button>
+                    <mt-button icon="back" slot="left" @click="popupVisible=false">取消</mt-button>             
+                    <router-link to="/hello" slot="right">
+                         <mt-button>发送</mt-button>
+                    </router-link>
                 </mt-header>
                 <mt-field placeholder="写评论" type="textarea" rows="4" v-model="introduction"></mt-field>
-
         </mt-popup>
-        
+        <p>{{introduction}}</p>
     </div>
 </template>
 
