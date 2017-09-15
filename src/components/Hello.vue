@@ -31,7 +31,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '发微博'
     }
   }
 }
