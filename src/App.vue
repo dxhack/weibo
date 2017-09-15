@@ -12,18 +12,6 @@ export default {
     return {
 
     }
-  },
-    methods:{
-      loaddata(){
-          var classid = this.$route.params.id
-          this.$http.get('/test_api?id='+classid).then(function(rs){
-              console.log(rs.body);
-          },function(response){
-          });
-      }
-  },
-  activited(){
-
   }
 }
 </script>
