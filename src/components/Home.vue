@@ -30,13 +30,6 @@
             <div slot="end">100%</div>
         </mt-progress>
         <mt-picker :slots="slots" @change="onValuesChange"></mt-picker>
-
-
-
-
-
-
-
     </div>
 </template>
 
