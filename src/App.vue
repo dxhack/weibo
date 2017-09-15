@@ -16,7 +16,7 @@
         </li>
         <li>
           <button class="fatie_btn">
-            <router-link to="/posting" class="fatie">+</router-link>
+            <router-link to="/Posting" class="fatie">+</router-link>
           </button>
         </li>
         <li>
@@ -26,7 +26,7 @@
         </li>
         <li>
           <button>
-            <router-link to="/Hello">我</router-link>
+            <router-link to="/Friend">我</router-link>
           </button>
         </li>
       </ul>
