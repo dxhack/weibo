@@ -15,7 +15,7 @@
         </li>
         <li>
           <button class="fatie_btn">
-            <router-link to="/Hello" class="fatie">+</router-link>
+            <router-link to="/Posting" class="fatie">+</router-link>
           </button>
         </li>
         <li>
@@ -25,7 +25,7 @@
         </li>
         <li>
           <button>
-            <router-link to="/Hello">我</router-link>
+            <router-link to="/Friend">我</router-link>
           </button>
         </li>
       </ul>
@@ -41,18 +41,6 @@ export default {
     return {
 
     }
-  },
-    methods:{
-      loaddata(){
-          var classid = this.$route.params.id
-          this.$http.get('/test_api?id='+classid).then(function(rs){
-              console.log(rs.body);
-          },function(response){
-          });
-      }
-  },
-  activited(){
-
   }
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="friend">
   <mt-header title="我的好友">
-    <router-link to="/Home" slot="left">
+    <router-link to="/Hello" slot="left">
       <mt-button icon="back">我</mt-button>
     </router-link>
     <mt-button icon="more" slot="right"></mt-button>
@@ -37,10 +37,6 @@ export default {
     .friend{
         height:100%;
         width:100%;
-    }
-    .aaa{
-        width:200px;
-        height:40px;
     }
     .mint-header{
       color:black;
